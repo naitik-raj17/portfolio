@@ -443,7 +443,8 @@ input:focus, textarea:focus{border-color:rgba(11,11,14,.44); box-shadow:0 0 0 4p
 @media (max-width: 980px){
   .nav{display:none}
   .menu-btn{display:grid; place-items:center}
-  .mobile-nav{display:block}
+  .mobile-nav{display:none}
+  .mobile-nav:not([hidden]){display:block}
   .btn-outline{display:none}
   .hero-title{font-size:72px}
   .hero-left{padding:44px 28px 34px}
