@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .resume-wrap{padding:38px 0 70px}
+      .resume{
+        border:1px solid rgba(11,11,14,.12);
+        border-radius:18px;
+        background:rgba(255,255,255,.7);
+        box-shadow:0 18px 40px rgba(11,11,14,.12);
+        padding:26px;
+      }
+      .resume h1{margin:0 0 10px; font-size:34px}
+      .resume p{margin:10px 0; color:rgba(11,11,14,.62); line-height:1.7}
+      .resume .row{display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap}
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html#top" aria-label="Back to home">
+          <span class="brand-line">NAITIK</span>
+          <span class="brand-line">RAJ</span>
+        </a>
+        <div class="header-actions">
+          <a class="btn btn-outline" href="./index.html#top">Back</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="resume-wrap">
+      <div class="container">
+        <div class="resume">
+          <div class="row">
+            <h1>Resume</h1>
+            <button class="btn btn-outline" type="button" onclick="window.print()">Print / Save PDF</button>
+          </div>
+
+          <p>
+            <strong>Email</strong>:
+            <a href="mailto:rajnaitikone@gmail.com">rajnaitikone@gmail.com</a>
+            &nbsp;·&nbsp;
+            <strong>Phone</strong>:
+            <a href="tel:+919798241580">+91 9798241580</a>
+          </p>
+
+          <p>
+            Replace this page with your real resume (PDF or HTML). If you want a PDF download, put it
+            next to this file as <code>resume.pdf</code> and update the link in <code>index.html</code>.
+          </p>
+
+          <h2 class="section-title" style="font-size:22px;margin-top:18px;">Quick template</h2>
+          <p><strong>Role</strong>: Software Developer</p>
+          <p><strong>Highlights</strong>: Web Development, Andriod Development, DSA, MERN</p>
+          <p><strong>Stack</strong>: Python, Java, JavaScript, TypeScript, FastAPI, Next.js</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
